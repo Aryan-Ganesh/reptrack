@@ -1,7 +1,7 @@
 // RepTrack service worker.
 // Strategy: NETWORK-FIRST for app files (so updates always appear when online),
 // falling back to the cache when offline. Bump VERSION on every deploy.
-const VERSION = 'v3';
+const VERSION = 'v4';
 const CACHE = 'reptrack-' + VERSION;
 const FILES = ['./', './index.html', './app.js', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
